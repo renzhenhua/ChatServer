@@ -3,12 +3,15 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include/server"
             ],
             "defines": [],
             "compilerPath": "/bin/gcc",
             "intelliSenseMode": "linux-gcc-x64",
-            "cppStandard": "c++11"
+            "cppStandard": "c++11",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "cStandard": "c11"
         }
     ],
     "version": 4
